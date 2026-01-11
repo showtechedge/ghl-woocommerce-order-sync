@@ -1,0 +1,12 @@
+2026-01-11 11:21:02,469 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-11 11:21:02,470 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 11:23:54,593 - INFO - 📦 Processing Order #1001 | Customer: ce***@showtechedge.com | Value: $150.0
+2026-01-11 11:23:54,594 - INFO - ✅ Order #1001 Synced Successfully.
+2026-01-11 11:23:54,599 - INFO - 127.0.0.1 - - [11/Jan/2026 11:23:54] "POST /woo-order HTTP/1.1" 200 -
+2026-01-11 11:23:54,610 - INFO - ♻️  Skipping Duplicate Order #1001 (Already Processed)
+2026-01-11 11:23:54,611 - INFO - 127.0.0.1 - - [11/Jan/2026 11:23:54] "POST /woo-order HTTP/1.1" 200 -
+2026-01-11 11:23:54,623 - INFO - Skipping Order #1002 (Status: cancelled)
+2026-01-11 11:23:54,624 - INFO - 127.0.0.1 - - [11/Jan/2026 11:23:54] "POST /woo-order HTTP/1.1" 200 -
+2026-01-11 11:23:54,635 - WARNING - ⛔ Security Alert: Invalid Signature from 127.0.0.1
+2026-01-11 11:23:54,637 - INFO - 127.0.0.1 - - [11/Jan/2026 11:23:54] "[31m[1mPOST /woo-order HTTP/1.1[0m" 401 -
